@@ -1,0 +1,138 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://ed172806-aa48-475e-ac53-4baed6255fa8",
+	"@type": "sc:Manifest",
+	"label": "[Click to edit label]",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "[Click to edit description]",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "[Click to edit attribution]",
+	"sequences": [
+		{
+			"@id": "http://cd88cc02-8791-4e26-93da-a37b687ca49d",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://69af5d78-5d41-4048-b458-c8e32c47eeaf",
+					"@type": "sc:Canvas",
+					"label": "recto",
+					"height": 6143,
+					"width": 4536,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9f8396ee-32d2-438a-aafa-bb97c6c248d0",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100049571556.0x000001/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://api.bl.uk/image/iiif/ark:/81055/vdc_100049571556.0x000001",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"maxHeight": 2000,
+											"maxWidth": 2000,
+											"qualities": [
+												"gray",
+												"color",
+												"bitonal"
+											],
+											"supports": [
+												"rotationArbitrary",
+												"mirroring",
+												"regionSquare",
+												"profileLinkHeader"
+											]
+										}
+									]
+								},
+								"height": 6143,
+								"width": 4536
+							},
+							"on": "http://69af5d78-5d41-4048-b458-c8e32c47eeaf"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://81afc217-c1a2-433e-b169-c6c560b41045",
+					"@type": "sc:Canvas",
+					"label": "f. 1",
+					"height": 11893,
+					"width": 7314,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://023e439f-a632-4fe1-b945-d6f5310a184c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/maps_k_top_118_18/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/maps_k_top_118_18",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 11893,
+								"width": 7314
+							},
+							"on": "http://81afc217-c1a2-433e-b169-c6c560b41045"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://bcf70df8-31e3-4b49-adb1-ae84ead84c39",
+					"@type": "sc:Canvas",
+					"label": "Empty canvas",
+					"height": 11893,
+					"width": 7314,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://4afc4ed0-7819-4acb-900f-fe5743a0b217",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archivelab.org/iiif/maps_k_top_118_18/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archivelab.org/iiif/maps_k_top_118_18",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 11893,
+								"width": 7314
+							},
+							"on": "http://bcf70df8-31e3-4b49-adb1-ae84ead84c39"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
