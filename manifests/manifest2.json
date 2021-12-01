@@ -11,7 +11,7 @@
 		}
 	],
 	"license": "https://creativecommons.org/licenses/by/3.0/",
-	"attribution": "[Click to edit attribution]",
+	"attribution": "[A mapmaker]",
 	"sequences": [
 		{
 			"@id": "http://cd88cc02-8791-4e26-93da-a37b687ca49d",
@@ -26,7 +26,7 @@
 				{
 					"@id": "http://69af5d78-5d41-4048-b458-c8e32c47eeaf",
 					"@type": "sc:Canvas",
-					"label": "recto",
+					"label": "single map",
 					"height": 6143,
 					"width": 4536,
 					"images": [
